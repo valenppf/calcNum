@@ -11,5 +11,5 @@ function [x,it,er]=jacobi(A,b,x0,maxit,tol)
     endif
     x0=x;
   endfor
-  it=k
+  it=k;
 endfunction
